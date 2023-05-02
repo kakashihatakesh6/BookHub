@@ -41,7 +41,7 @@ class MainActivity : AppCompatActivity() {
 
         openDashboard()
 
-        // Setting Up toolbar
+        // Setting Up toolbar-
 
         setUpToolbar()
 
