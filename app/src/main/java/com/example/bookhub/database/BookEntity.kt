@@ -1,0 +1,18 @@
+package com.example.bookhub.database
+
+import androidx.room.ColumnInfo
+import androidx.room.Entity
+import androidx.room.PrimaryKey
+
+
+@Entity(tableName = "books")
+data class BookEntity(
+    @PrimaryKey val book_id : Int,
+    @ColumnInfo("book_name") val bookName: String,
+    @ColumnInfo("book_author") val bookAuthor: String,
+    @ColumnInfo("book_price") val bookPrice: String,
+    @ColumnInfo("book_rating") val bookRating: String,
+    @ColumnInfo("book_desc") val bookDes: String,
+    @ColumnInfo("book_image") val bookImage: String
+
+)
